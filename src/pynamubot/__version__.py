@@ -1,0 +1,6 @@
+__title__ = "pynamubot"
+__description__ = "A Python client for the Namuwiki API."
+__version__ = "0.1.0"
+__author__ = "Iodine at NamuWiki"
+__license__ = "MIT"
+__copyright__ = "Copyright Iodine at NamuWiki"

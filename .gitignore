@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+.vscode/
+
+config.toml
+
+# For now:
+src/pynamubot/jobs/
+src/pynamubot/parse/
+src/pynamubot/puppet/
+src/pynamubot/utils/

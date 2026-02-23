@@ -1,0 +1,38 @@
+[project]
+name = "pynamubot"
+version = "0.1.0"
+description = "Python client library for TheSeed-based wiki APIs such as NamuWiki."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Iodine at NamuWiki" },
+]
+keywords = ["namuwiki", "theseed", "wiki", "api", "bot"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: WWW/HTTP",
+    "Typing :: Typed",
+]
+dependencies = [
+    "lark>=1.3.1",
+    "pydantic>=2.12.5",
+    "requests>=2.32.5",
+    "structlog>=25.5.0",
+    "typing-extensions>=4.9.0",
+]
+
+[project.optional-dependencies]
+puppet = ["selenium>=4.0.0"]
+
+[build-system]
+requires = ["uv_build>=0.9.7,<0.10.0"]
+build-backend = "uv_build"
