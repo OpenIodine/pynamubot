@@ -1,6 +1,6 @@
 [project]
 name = "pynamubot"
-version = "0.1.7"
+version = "0.1.9"
 description = "Python client library for TheSeed-based wiki APIs such as NamuWiki."
 readme = "README.md"
 requires-python = ">=3.9"
